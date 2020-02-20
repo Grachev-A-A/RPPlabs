@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Лабораторная 1</string>
+    <string name="fir0"></string>
+    <string name="fir1">один </string>
+    <string name="fir2">два </string>
+    <string name="fir3">три </string>
+    <string name="fir4">четыре </string>
+    <string name="fir5">пять </string>
+    <string name="fir6">шесть </string>
+    <string name="fir7">семь </string>
+    <string name="fir8">восемь </string>
+    <string name="fir9">девять </string>
+    <string name="fir10">десять </string>
+    <string name="fir11">одиннадцать </string>
+    <string name="fir12">двенадцать </string>
+    <string name="fir13">тринадцать </string>
+    <string name="fir14">четырнадцать </string>
+    <string name="fir15">пятнадцать </string>
+    <string name="fir16">шестнадцать </string>
+    <string name="fir17">семнадцать </string>
+    <string name="fir18">восемнадцать </string>
+    <string name="fir19">девятнадцать </string>
+    <string name="sec0"></string>
+    <string name="sec2">двадцать </string>
+    <string name="sec3">тридцать </string>
+    <string name="sec4">сорок </string>
+    <string name="sec5">пятьдесят </string>
+    <string name="sec6">шесьтдесят </string>
+    <string name="sec7">семьдесят </string>
+    <string name="sec8">восемьдесят </string>
+    <string name="sec9">девяносто </string>
+    <string name="thi0"></string>
+    <string name="thi1">сто </string>
+    <string name="thi2">двести </string>
+    <string name="thi3">тристо </string>
+    <string name="thi4">четыресто </string>
+    <string name="thi5">пятьсот </string>
+    <string name="thi6">шестьсот </string>
+    <string name="thi7">семьсот </string>
+    <string name="thi8">восемьсот </string>
+    <string name="thi9">девятьсот </string>
+    <string name="for0">тысяч </string>
+    <string name="for1">одна тысяча </string>
+    <string name="for2">две тысячи </string>
+    <string name="for3">три тысячи </string>
+    <string name="for4">четыре тысячи </string>
+    <string name="for5">пять тысяч </string>
+    <string name="for6">шесть тысяч </string>
+    <string name="for7">семь тысяч </string>
+    <string name="for8">восемь тысяч </string>
+    <string name="for9">девять тысяч </string>
+
+
+</resources>
