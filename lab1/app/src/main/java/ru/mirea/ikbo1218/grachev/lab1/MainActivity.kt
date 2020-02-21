@@ -94,8 +94,4 @@ class DataAdapter(context:Context) : RecyclerView.Adapter<DataAdapter.ViewHolder
         val tv:TextView = view.findViewById(R.id.text)
         val rve: LinearLayout = view.findViewById(R.id.rve)
     }
-    //private static final  RuleBasedNumberFormat nf = RuleBasedNumberFormat(
-    //        Locale("ru", "RU"),
-    //        RuleBasedNumberFormat.SPELLOUT
-    //    )
 }

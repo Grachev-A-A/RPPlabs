@@ -12,11 +12,11 @@ class SplashActivity : AppCompatActivity() {
         if (savedInstanceState == null) {
             Thread {
                 Thread.sleep(2000)
-                if(!this.isDestroyed) {
+                //if(!this.isDestroyed) {
                     val i = Intent(this, MainActivity::class.java)
                     i.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY)
                     startActivity(i)
-                }
+                //}
             }.start()
         }
 
