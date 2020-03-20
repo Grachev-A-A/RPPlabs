@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="id">ID: %1$d</string>
+</resources>

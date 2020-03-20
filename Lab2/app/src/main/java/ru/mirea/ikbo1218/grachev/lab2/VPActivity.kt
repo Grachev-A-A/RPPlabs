@@ -1,6 +1,5 @@
 package ru.mirea.ikbo1218.grachev.lab2
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

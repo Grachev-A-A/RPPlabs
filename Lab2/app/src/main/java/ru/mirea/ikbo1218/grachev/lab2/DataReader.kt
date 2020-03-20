@@ -13,8 +13,8 @@ import java.io.FileNotFoundException
 
 
 object DataReader {
-    private val uri = "https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/data/techs.ruleset.json"
-    private val picUri = "https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/images/tech/"
+    private const val uri = "https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/data/techs.ruleset.json"
+    private const val picUri = "https://raw.githubusercontent.com/wesleywerner/ancient-tech/02decf875616dd9692b31658d92e64a20d99f816/src/images/tech/"
     private val json:String
     private val data: ArrayList<DataUnit>
     private var img:ArrayList<Bitmap?> = ArrayList()

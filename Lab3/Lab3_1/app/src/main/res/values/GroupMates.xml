@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gm1">Алексеев Никита Евгеньевич</string>
+    <string name="gm2">Баранников Вадим Сергеевич</string>
+    <string name="gm3">Булыгин Андрей Геннадьевич</string>
+    <string name="gm4">Геденидзе Давид Темуриевич</string>
+    <string name="gm5">Горак Никита Сергеевич</string>
+    <string name="gm6">Грачев Александр Альбертович</string>
+    <string name="gm7">Гусейнов Илья Алексеевич</string>
+    <string name="gm8">Жарикова Екатерина Сергеевна</string>
+    <string name="gm9">Журавлев Владимир Евгеньевич</string>
+    <string name="gm10">Загребельный Александр Русланович</string>
+    <string name="gm11">Иванов Алексей Дмитриевич</string>
+    <string name="gm12">Карипова Лейсан Вильевна</string>
+    <string name="gm13">Копотов Михаил Алексеевич</string>
+    <string name="gm14">Копташкина Татьяна Алексеевна</string>
+    <string name="gm15">Косогоров Кирилл Станиславович</string>
+    <string name="gm16">Кошкин Артем Сергеевич</string>
+    <string name="gm17">Логецкая Светлана Александровна</string>
+    <string name="gm18">Магомедов Мурад Магамедович</string>
+    <string name="gm19">Миночкин Антон Андреевич</string>
+    <string name="gm20">Опарин Иван Алексеевич</string>
+    <string name="gm21">Паршаков Никита Алексеевич</string>
+    <string name="gm22">Самохин Олег Романович</string>
+    <string name="gm23">Сахаров Владислав Игоревич</string>
+    <string name="gm24">Смирнов Сергей Юрьевич</string>
+    <string name="gm25">Трошин Дмитрий Вадимович</string>
+    <string name="gm26">Чехуров Денис Александрович</string>
+    <string name="gm27">Эльшейх Самья Ахмед</string>
+    <string name="gm28">Юров Илья Игоревич</string>
+</resources>
