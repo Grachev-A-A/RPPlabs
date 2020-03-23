@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="enter_date">Enter date:</string>
+    <string name="time_to">Time to %1$s left:</string>
+</resources>
