@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Front</string>
+    <string name="tab_text_2">Back</string>
+    <string name="cost">Цена: %1$.2f</string>
+    <string name="cost_all">Стоимость: %1$.2f. Купить?</string>
+</resources>
