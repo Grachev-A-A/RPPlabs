@@ -74,7 +74,7 @@ class BackAdapter(context: AppCompatActivity): StoreAdapter<BackAdapter.VH>(cont
                     context.runOnUiThread {
                         Toast.makeText(
                             context,
-                            "Item with id ${holder.id.text.toString().toInt()} updated",
+                            if (holder.id.text != "*") "Item with id ${holder.id.text} updated" else "New item added!",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
