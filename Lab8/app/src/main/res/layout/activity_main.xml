@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/autocomplete_fragment_or"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toEndOf="@id/textViewOr"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/autocomplete_fragment_dest"/>
+
+    <fragment
+        android:id="@+id/autocomplete_fragment_dest"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewDest"
+        app:layout_constraintTop_toBottomOf="@id/autocomplete_fragment_or"
+        app:layout_constraintBottom_toTopOf="@id/pointsMap"/>
+
+    <fragment
+        android:id="@+id/pointsMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="3dp"
+        app:layout_constraintTop_toBottomOf="@id/autocomplete_fragment_dest"
+        app:layout_constraintBottom_toTopOf="@id/toRoutesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".PointsActivity" />
+
+    <Button
+        android:id="@+id/toRoutesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="onClickGoToRoutes"
+        android:text="@string/go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/origin"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/destination"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintEnd_toStartOf="@id/autocomplete_fragment_dest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewOr"
+        app:layout_constraintBottom_toTopOf="@id/pointsMap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

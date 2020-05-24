@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="go">Смотреть маршрут</string>
+    <string name="origin">Откуда:</string>
+    <string name="destination">Куда:</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
